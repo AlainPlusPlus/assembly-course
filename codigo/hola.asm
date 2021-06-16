@@ -9,12 +9,12 @@ SECTION .TEXT
 
 _start:
    mov eax,4            ; 'write' llamada al sistema = 4
-   mov ebx,1            ; descriiptor de archivo 1 = STDOUT
+   mov ebx,1            ; descriptor de archivo 1 = STDOUT
    mov ecx,hello        ; cadena a escribir
    mov edx,helloLen     ; longitud de la cadena a escribir
    int 80h              ; llamada al kernel (interupción)
 
-   ; Terminate program
+   ; Termina programa 
    mov eax,1            ; 'exit' llamada al sistema = 1
    mov ebx,0            ; finaliza con código de error = 0
    int 80h              ; llamada al kernel (interupción)
