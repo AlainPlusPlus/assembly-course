@@ -12,9 +12,9 @@ _start:
    mov ebx,1            ; descriptor de archivo 1 = STDOUT
    mov ecx,hello        ; cadena a escribir
    mov edx,helloLen     ; longitud de la cadena a escribir
-   int 80h              ; llamada al kernel (interupción)
+   int 80h              ; llamada al kernel (interrupción)
 
    ; Termina programa 
    mov eax,1            ; 'exit' llamada al sistema = 1
    mov ebx,0            ; finaliza con código de error = 0
-   int 80h              ; llamada al kernel (interupción)
+   int 80h              ; llamada al kernel (interrupción)
