@@ -1,7 +1,7 @@
 ; Define variables en sección de datos
 SECTION .DATA
-   hello     db 'Hola, mundo!',10
-   helloLen  equ $-hello
+   hello     db 'Hola, mundo!',10 ;nuestra cadena
+   helloLen  equ $-hello	  ;longitud de nuestra cadena	
 
 ; Código va en la sección de texto
 SECTION .TEXT
@@ -10,8 +10,8 @@ SECTION .TEXT
 _start:
    mov eax,4            ; 'write' llamada al sistema = 4
    mov ebx,1            ; descriptor de archivo 1 = STDOUT
-   mov ecx,hello        ; cadena a escribir
-   mov edx,helloLen     ; longitud de la cadena a escribir
+   mov ecx,hello        ; mensaje a escribir
+   mov edx,helloLen     ; longitud del mensaje a escribir
    int 80h              ; llamada al kernel (interrupción)
 
    ; Termina programa 
