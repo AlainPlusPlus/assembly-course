@@ -1,6 +1,6 @@
 ; Define variables en sección de datos
 SECTION .DATA
-   hello     db 'Hola, mundo!',10 ;nuestra cadena
+   hello     db '¡Hola, mundo!',10 ;nuestra cadena
    helloLen  equ $-hello	  ;longitud de nuestra cadena	
 
 ; Código va en la sección de texto
