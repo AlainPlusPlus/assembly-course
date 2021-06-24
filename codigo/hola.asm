@@ -1,11 +1,11 @@
 ; Define variables en sección de datos
-SECTION .DATA
+section .data
    hello     db '¡Hola, mundo!',10 ;nuestra cadena
    helloLen  equ $-hello	  ;longitud de nuestra cadena	
 
 ; Código va en la sección de texto
-SECTION .TEXT
-   GLOBAL _start 
+section .text
+   global _start 
 
 _start:
    mov eax,4            ; 'write' llamada al sistema = 4
