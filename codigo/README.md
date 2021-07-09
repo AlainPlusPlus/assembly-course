@@ -30,3 +30,7 @@ nasm -f elf64 hola.asm -o hola.o
 ld hola.o -o hola
 ./hola
 ```
+### Alternativa (todo en una sola linea)
+```
+nasm -f elf64 hola.asm && ld hola.o && ./a.out
+```
