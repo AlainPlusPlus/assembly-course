@@ -2,7 +2,7 @@
 
 Programas en ensamblador x86 para el curso de Arquitectura de computadoras.
 
-## Ensamblar, ligar y correr los programas en Linux
+## Ensamblar, ligar y correr los programas desde la terminal en Linux
 1. Instalar [NASM](https://github.com/netwide-assembler/nasm)
 - Verificar si ya esta instalado
 ```
