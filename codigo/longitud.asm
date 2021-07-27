@@ -1,16 +1,13 @@
 section .data
-
    result db 'longitud de tu nombre:'
    resultLen equ $-result
 
    myNameLen  equ $-myName
 
 section .bss
-
    len2char resb 1
 
 section .text
-
    global _start
 
 _start:
