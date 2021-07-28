@@ -5,3 +5,4 @@ Curso de ensamblador x86 (2021).
 - ### Herramientas
     - [NASM](https://github.com/netwide-assembler/nasm)
 - ### Recursos
+    - [A Study Path for Game Programmer ](https://miloyip.github.io/game-programmer)
