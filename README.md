@@ -1,5 +1,5 @@
-# assembly-course 
-Curso de ensamblador x86 para Arquitectura de Computadoras X86 & ARM (2021).
+# assembly-course 2021
+Curso de ensamblador para Arquitectura de Computadoras (x86 & ARM).
 ## Contenido
 - ### [Código](https://github.com/AlainPlusPlus/assembly-course/tree/main/codigo)
 - ### Herramientas
