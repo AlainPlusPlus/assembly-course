@@ -1,5 +1,5 @@
 # assembly-course 2021
-Curso de ensamblador para Arquitectura de Computadoras (x86 & ARM).
+Contenido de ciencias de la computación y lenguaje ensamblador para cursos de Arquitectura de Computadoras (x86 y ARM) para la carrera de ingeniería en desarrollo de videojuegos y medios interactivos.
 ## Contenido
 - ### [Código](https://github.com/AlainPlusPlus/assembly-course/tree/main/codigo)
 - ### Herramientas
