@@ -8,3 +8,5 @@ Contenido de ciencias de la computación y lenguaje ensamblador para cursos de A
     - [A Study Path for Game Programmer](https://miloyip.github.io/game-programmer)
     - [From Nand to Tetris](https://www.nand2tetris.org/)
     - [Crash Course Computer Science](https://www.youtube.com/watch?v=O5nskjZ_GoI&list=RDCMUCX6b17PVsYBQ0ip5gyeme-Q)
+    - [NASM documentación](https://www.nasm.us/xdoc/2.15.05/html/nasmdoc0.html)
+    - [ARM Developer](https://developer.arm.com/documentation/)
