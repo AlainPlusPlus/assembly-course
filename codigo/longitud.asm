@@ -1,7 +1,7 @@
 section .data
    result db 'longitud de tu nombre:'
    resultLen equ $-result
-
+   myName db 'nombre'
    myNameLen  equ $-myName
 
 section .bss
