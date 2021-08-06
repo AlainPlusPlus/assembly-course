@@ -4,6 +4,9 @@ Contenido de ciencias de la computación y lenguaje ensamblador para cursos de A
 - ### [Código](https://github.com/AlainPlusPlus/assembly-course/tree/main/codigo)
 - ### Herramientas
     - [NASM](https://github.com/netwide-assembler/nasm)
+    - [JWasm](https://github.com/JWasm/JWasm)
+    - [ASMC](https://github.com/nidud/asmc)
+    - [UASM](http://www.terraspace.co.uk/uasm.html)
 - ### Recursos
     - [A Study Path for Game Programmer](https://miloyip.github.io/game-programmer)
     - [From Nand to Tetris](https://www.nand2tetris.org/)
