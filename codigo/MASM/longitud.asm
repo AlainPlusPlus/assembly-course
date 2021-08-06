@@ -3,7 +3,8 @@
    resultLen equ $-result
    myName db 'nombre'
    myNameLen  equ $-myName
-   len2char db '$' ;se puede usar una variable
+
+   len2char db 1 dup (?) ;se puede usar una variable (espacio) no inicializada
 
 .code
 _start:
@@ -23,7 +24,7 @@ _start:
    mov ebx,1
    int 80h
 
-   ; Termina programa 
+   ; Termina programa
    mov eax,1
    mov ebx,0
    int 80h
