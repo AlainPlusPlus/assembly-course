@@ -50,7 +50,7 @@ ask_num1:
    sub ebx,48
 
    ;multiplica
-   mul eax,ebx
+   mul ebx
 
    add eax,48
    mov [res],eax
