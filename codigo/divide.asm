@@ -49,11 +49,11 @@ ask_num1:
    mov ebx, [num2]
    sub ebx, 48
 
-   ;divide. Necesitamos edx, eax y ebx para esta operación.
+   ;divide (necesitamos edx, eax y ebx para esta operación)
    xor edx, edx
    and eax, 255
    and ebx, 255
-   div ebx	;el resultado se guarda en eax:edx (cociente:residuo/resto) 
+   div ebx ;el resultado se guarda en eax:edx (cociente:residuo/resto) 
 
    add eax, 48
    mov [res], eax

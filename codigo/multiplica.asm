@@ -17,8 +17,8 @@ section .text
 
 _start:
 ask_num1:
-   mov ecx,ask1
-   mov edx,ask1Len
+   mov ecx, ask1
+   mov edx, ask1Len
    call print
 
    ;obten primer valor
@@ -28,8 +28,8 @@ ask_num1:
    mov edx, 5
    int 80h
 
-   mov ecx,ask2
-   mov edx,ask2Len
+   mov ecx, ask2
+   mov edx, ask2Len
    call print
 
    ;obten segundo valor
@@ -39,34 +39,34 @@ ask_num1:
    mov edx, 5
    int 80h
 
-   mov ecx,result
-   mov edx,resultLen
+   mov ecx, result
+   mov edx, resultLen
    call print
 
    ;obtiene valores numericos
-   mov eax,[num1]
-   sub eax,48
-   mov ebx,[num2]
-   sub ebx,48
+   mov eax, [num1]
+   sub eax, 48
+   mov ebx, [num2]
+   sub ebx, 48
 
    ;multiplica
    mul ebx
 
    add eax,48
-   mov [res],eax
-   mov [res+1],BYTE newLine
+   mov [res], eax
+   mov [res+1], BYTE newLine
 
-   mov ecx,res
-   mov edx,2
+   mov ecx, res
+   mov edx, 2
    call print
 
    ;termina programa 
-   mov eax,1
-   mov ebx,0
+   mov eax, 1
+   mov ebx, 0
    int 80h
    
 print:       
    mov eax,4
-   mov ebx,1
+   mov ebx, 1
    int 80h
    ret
