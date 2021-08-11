@@ -7,7 +7,7 @@ section .data ;declara variables inicializadas
    resultLen equ $- result
    newLine equ 10
 
-section .bss ; variables/espacios no inicializ@s
+section .bss ;variables/espacios no inicializ@s
    num1 resb 1
    num2 resb 1
    res resb 2
@@ -43,13 +43,13 @@ ask_num1:
    mov edx,resultLen
    call print
 
-   ; obtiene valores numericos
+   ;obtiene valores numericos
    mov eax,[num1]
    sub eax,48
    mov ebx,[num2]
    sub ebx,48
 
-   ; suma
+   ;suma
    sub eax,ebx
 
    add eax,48
@@ -60,7 +60,7 @@ ask_num1:
    mov edx,2
    call print
 
-   ; termina programa 
+   ;termina programa 
    mov eax,1
    mov ebx,0
    int 80h
