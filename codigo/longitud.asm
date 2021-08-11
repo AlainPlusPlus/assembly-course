@@ -1,7 +1,7 @@
 ;
 ; Copyright (c) 2021 Alain (@AlainPlusPlus)
 ;
-; Imprime la longitud (0-9) de una cadena con tu nombre (myName).
+; Imprime la longitud (0-9 caracteres) de una cadena con tu nombre (myName).
 ;
 
 
