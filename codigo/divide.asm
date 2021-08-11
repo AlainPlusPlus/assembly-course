@@ -1,6 +1,10 @@
 ;
 ; Copyright (c) 2021 Alain (@AlainPlusPlus)
 ;
+; Realiza una división entre dos números enteros de un sólo dígito (0-9).
+; Toma los valores dados por el usuario.
+; El resultado es de un sólo dígito (0-9).
+;
 
 section .data ;declara variables inicializadas
    ask1 db 'primer valor:'
@@ -57,7 +61,7 @@ ask_num1:
    xor edx, edx
    and eax, 255
    and ebx, 255
-   div ebx ;el resultado se guarda en eax:edx (cociente:residuo/resto) 
+   div ebx ;el resultado de eax/ebx se  guarda en eax:edx (cociente:residuo/resto) 
 
    add eax, 48
    mov [res], eax

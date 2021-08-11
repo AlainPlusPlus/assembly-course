@@ -1,6 +1,8 @@
 ;
 ; Copyright (c) 2021 Alain (@AlainPlusPlus)
 ;
+; Programa básico de "hello, world!" en español.
+;
 
 ; Define variables en sección de datos
 section .data

@@ -1,6 +1,11 @@
 ;
 ; Copyright (c) 2021 Alain (@AlainPlusPlus)
 ;
+; Realiza una resta entre dos números enteros de un sólo dígito (0-9).
+; Toma los valores dados por el usuario.
+; El resultado es de un sólo dígito (0-9).
+;
+
 
 section .data ;declara variables inicializadas
    ask1 db 'primer valor:'

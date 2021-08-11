@@ -1,6 +1,8 @@
 ;
 ; Copyright (c) 2021 Alain (@AlainPlusPlus)
 ;
+; Programa básico de "hello, world!" en español.
+;
 
 .data
    hello db '¡Hola, mundo!'
@@ -10,7 +12,7 @@
 _start:
    mov eax, 4
    mov ebx, 1
-   lea ecx, hello ;carga dirección efectiva (Load Effective Address)
+   lea ecx, hello 		;carga dirección efectiva (Load Effective Address)
    mov edx, helloLen
    int      80h
 
