@@ -20,7 +20,7 @@ _start:
    mov ebx, 1
    int 80h
 
-   mov dl, myNameLen 		;utilizamos sólo la parte baja (1 byte) del registro D
+   mov dl, myNameLen 		;utilizamos sólo la parte baja (1 byte) del registro dx
    add dl, 48
    mov [len2char], dl
 

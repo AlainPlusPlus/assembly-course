@@ -6,7 +6,7 @@
 
 .data
    hello db '¡Hola, mundo!'
-   helloLen  equ $-hello
+   helloLen  equ $- hello
 
 .code
 _start:
