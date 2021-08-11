@@ -7,7 +7,7 @@
 ;
 
 
-section .data ;declara variables inicializadas
+section .data 		;declara variables inicializadas
    ask1 db 'primer valor:'
    ask1Len equ $- ask1
    ask2 db 'segundo valor:'
@@ -16,7 +16,7 @@ section .data ;declara variables inicializadas
    resultLen equ $- result
    newLine equ 10
 
-section .bss ;variables/espacios no inicializ@s
+section .bss 		;variables/espacios no inicializ@s
    num1 resb 1
    num2 resb 1
    res resb 2

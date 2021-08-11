@@ -18,23 +18,23 @@ section .text
    global _start
 
 _start:
-   mov ecx,result
-   mov edx,resultLen
-   mov eax,4
-   mov ebx,1
+   mov ecx, result
+   mov edx, resultLen
+   mov eax, 4
+   mov ebx, 1
    int 80h
 
-   mov edx,myNameLen
-   add edx,48
-   mov [len2char],edx
+   mov edx, myNameLen
+   add edx, 48
+   mov [len2char], edx
 
-   mov ecx,len2char
-   mov edx,1
-   mov eax,4
-   mov ebx,1
+   mov ecx, len2char
+   mov edx, 1
+   mov eax, 4
+   mov ebx, 1
    int 80h
 
    ; Termina programa 
-   mov eax,1
-   mov ebx,0
+   mov eax, 1
+   mov ebx, 0
    int 80h

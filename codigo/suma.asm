@@ -6,7 +6,7 @@
 ; El resultado es de un sólo dígito (0-9).
 ;
 
-section .data ;declara variables inicializadas
+section .data 		;declara variables inicializadas
    ask1 db 'primer valor:'
    ask1Len equ $- ask1
    ask2 db 'segundo valor:'
@@ -15,7 +15,7 @@ section .data ;declara variables inicializadas
    resultLen equ $- result
    newLine equ 10
 
-section .bss ;variables/espacios no inicializ@s
+section .bss 		;variables/espacios no inicializ@s
    num1 resb 1
    num2 resb 1
    res resb 2
@@ -53,8 +53,8 @@ ask_num1:
 
    mov ecx, result
    mov edx, resultLen
-   mov eax,4
-   mov ebx,1
+   mov eax, 4
+   mov ebx, 1
    int 80h
 
    ;obtiene valores numericos
