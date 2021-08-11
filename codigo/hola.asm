@@ -1,3 +1,7 @@
+;
+; Copyright (c) 2021 Alain (@AlainPlusPlus)
+;
+
 ; Define variables en sección de datos
 section .data
    hello     db '¡Hola, mundo!',10 ;nuestra cadena

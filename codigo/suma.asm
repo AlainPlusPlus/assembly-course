@@ -1,3 +1,7 @@
+;
+; Copyright (c) 2021 Alain (@AlainPlusPlus)
+;
+
 section .data ;declara variables inicializadas
    ask1 db 'primer valor:'
    ask1Len equ $- ask1

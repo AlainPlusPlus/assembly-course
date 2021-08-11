@@ -1,3 +1,7 @@
+;
+; Copyright (c) 2021 Alain (@AlainPlusPlus)
+;
+
 section .data
    result db 'longitud de tu nombre:'
    resultLen equ $-result

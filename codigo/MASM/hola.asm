@@ -1,3 +1,7 @@
+;
+; Copyright (c) 2021 Alain (@AlainPlusPlus)
+;
+
 .data
    hello db '¡Hola, mundo!'
    helloLen  equ $-hello
