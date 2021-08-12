@@ -24,7 +24,6 @@ section .text
    global _start
 
 _start:
-ask_num1:
    mov ecx, ask1
    mov edx, ask1Len
    call print

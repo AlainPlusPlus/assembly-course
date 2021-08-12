@@ -4,7 +4,6 @@
 ; Imprime la longitud (0-9 caracteres) de una cadena con tu nombre (myName).
 ;
 
-
 section .data
    result db 'longitud de tu nombre:'
    resultLen equ $-result

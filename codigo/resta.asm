@@ -6,7 +6,6 @@
 ; El resultado es de un sólo dígito (0-9).
 ;
 
-
 section .data 		;declara variables inicializadas
    ask1 db 'primer valor:'
    ask1Len equ $- ask1
@@ -25,7 +24,6 @@ section .text
    global _start
 
 _start:
-ask_num1:
    mov ecx, ask1
    mov edx, ask1Len
    call print
@@ -58,7 +56,7 @@ ask_num1:
    mov ebx, [num2]
    sub ebx, 48
 
-   ;suma
+   ;resta
    sub eax, ebx
 
    add eax, 48
