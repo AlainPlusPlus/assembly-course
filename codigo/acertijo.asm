@@ -35,7 +35,12 @@ askme:
    mov eax, [res]
    and eax,255
    cmp eax, 'm'
-   jne sandiaRes
+   je melonRes
+
+   cmp eax, 's'
+   je sandiaRes
+   
+   jmp finish
 
 melonRes:
    mov ecx, melon
