@@ -6,7 +6,6 @@ _start:
    mov edx, ask1Len
    call print
 
-   ;obten primer valor
    mov eax, 3
    mov ebx, 2
    mov ecx, nombre
@@ -21,7 +20,6 @@ _start:
    mov edx, 2
    call print
 
-   ;termina programa 
    mov eax, 1
    mov ebx, 0
    int 80h
