@@ -1,3 +1,12 @@
+section .data
+   ask db 'Nombre:'
+   ask1Len equ $- ask
+   newLine equ 10
+
+section .bss
+   nombre resb 12
+   res resb 2
+
 section .text
    global _start
 
@@ -11,7 +20,7 @@ _start:
    mov ecx, nombre
    mov edx, 5
    int 80h
-
+  
    ;aquí va la instrucción de la pregunta
    mov [res], eax
    mov [res+1], BYTE newLine
