@@ -2,7 +2,7 @@
 
 Programas en ensamblador ARM para el curso de Arquitectura de computadoras.
 
-## Ensamblar, ligar y correr los programas en el simulador en web [CPUlator](https://cpulator.01xz.net/)
+## Ensamblar y correr los programas en el simulador en web [CPUlator](https://cpulator.01xz.net/)
 
 Para correr los códigos de ejemplo de esta sección deberás usar un sistema de arquitectura **ARMv7**.
 
