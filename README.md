@@ -1,7 +1,9 @@
 # assembly-course 2021
 Contenido de ciencias de la computación y lenguaje ensamblador para cursos de Arquitectura de Computadoras (x86 y ARM) para la carrera de ingeniería en desarrollo de videojuegos y medios interactivos.
 ## Contenido
-- ### [Código](https://github.com/AlainPlusPlus/assembly-course/tree/main/codigo)
+- ### Código
+    - [ARM](https://github.com/AlainPlusPlus/assembly-course/tree/main/code/ARM)
+    - [x86](https://github.com/AlainPlusPlus/assembly-course/tree/main/code/x86)
 - ### Herramientas
     - [NASM](https://github.com/netwide-assembler/nasm)
     - [JWasm](https://github.com/JWasm/JWasm)
