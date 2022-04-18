@@ -6,8 +6,8 @@
 
 ;Define variables en sección de datos
 section .data
-   hello     db '¡Hola, mundo!',10 ;nuestra cadena
-   helloLen  equ $- hello	;longitud de nuestra cadena	
+   hello     db '¡Hola, mundo!',10  ; cadena a imprimir
+   helloLen  equ $- hello           ; longitud de cadena
 
 ;Código va en la sección de texto
 section .text
