@@ -14,7 +14,7 @@
 _start:
    mov eax, 4           ; 'write' llamada al sistema = 4
    mov ebx, 1           ; descriptor de archivo 1 = STDOUT
-   lea ecx, hello 		; carga dirección efectiva (Load Effective Address) de mensaje a escribir
+   lea ecx, hello 	; carga dirección efectiva (Load Effective Address) de mensaje a escribir
    mov edx, helloLen    ; longitud del mensaje a escribir
    int      80h         ; llamada al kernel (interrupción)
 
