@@ -11,6 +11,7 @@ Contenido de ciencias de la computación y lenguaje ensamblador para cursos de A
     - [UASM](http://www.terraspace.co.uk/uasm.html)
 - ### Recursos 
     - [Análisis de arquitectura computacional básica en juegos arcade clásicos](https://www.youtube.com/watch?v=XfR9cRLOvvU)
+    - [Practical ARM Assembly Tutorial Series](https://www.youtube.com/playlist?list=PLn_It163He32Ujm-l_czgEBhbJjOUgFhg)
     - [A Study Path for Game Programmer](https://miloyip.github.io/game-programmer)
     - [From Nand to Tetris](https://www.nand2tetris.org/)
     - [Crash Course Computer Science](https://www.youtube.com/watch?v=O5nskjZ_GoI&list=RDCMUCX6b17PVsYBQ0ip5gyeme-Q)
